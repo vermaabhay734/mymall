@@ -57,7 +57,7 @@ ROOT_URLCONF = 'mymall.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['mymall/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
